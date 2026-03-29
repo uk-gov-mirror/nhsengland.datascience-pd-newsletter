@@ -10,8 +10,169 @@
 <atom:link href="https://nhsengland.github.io/datascience-pd-newsletter/index.xml" rel="self" type="application/rss+xml"/>
 <description>A newsletter to share professional development tips and opportunities for people interested in healthcare data science
 </description>
-<generator>quarto-1.8.27</generator>
-<lastBuildDate>Sat, 28 Feb 2026 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.9.36</generator>
+<lastBuildDate>Fri, 27 Mar 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Data Science Community for Health and Care Newsletter March 2026</title>
+  <dc:creator>Elizabeth Kelly, Konstantin Georgiev</dc:creator>
+  <link>https://nhsengland.github.io/datascience-pd-newsletter/posts/2026_03/newsletter.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://nhsengland.github.io/datascience-pd-newsletter/images/banner_march.png" class="img-fluid"></p>
+<p>Welcome to the latest newsletter from the Data Science Community for Health and Care, brought to you by the NHS England Data Science Professional Development Functional Team.</p>
+<p>The newsletter team are always happy to receive constructive feedback, and we invite you to send us any contributions you may have.</p>
+<p>If you cannot access something of interest to you, please <a href="https://github.com/nhsengland/datascience-pd-newsletter/issues/new" target="_blank">reach out</a>.</p>
+<p>Thanks for reading! – newsletter team</p>
+<section id="interview-with-a-data-scientist---the-fairness-enthusiast" class="level1 section-heading">
+<h1>Interview with a Data Scientist - The Fairness Enthusiast</h1>
+</section>
+<p>Welcome to another instalment of our “Interview with a Data Scientist” series, where we explore the careers and work of the talented data scientists across our healthcare organisations. We aim to showcase the fantastic individuals who contribute to Data Science within the healthcare sector and provide valuable insights for those considering a career in this field.</p>
+<p>Today we’re interviewing Konstantin Georgiev, a postdoctoral researcher at the University of Edinburgh’s Institute for Neuroscience and Cardiovascular Research and former NHS England Data Science Officer. Konstantin’s journey from software engineering in Bulgaria to using multimodal AI for cardiac diagnostics in NHS Scotland offers fascinating insights into the intersection of deep learning, fairness in AI, and real-world healthcare impact.</p>
+<details>
+<summary>
+Read more…
+</summary>
+<section id="how-did-you-end-up-in-data-science-in-your-healthcare-organisation-what-did-you-do-before-and-what-really-sparked-your-interest-in-this-field" class="level3">
+<h3 class="anchored" data-anchor-id="how-did-you-end-up-in-data-science-in-your-healthcare-organisation-what-did-you-do-before-and-what-really-sparked-your-interest-in-this-field">How did you end up in data science in your healthcare organisation? What did you do before, and what really sparked your interest in this field?</h3>
+<p>My path into health data science felt both quite sudden and incredibly long at the same time, and it certainly wasn’t something I ever expected or dreamed of doing!</p>
+<p>Everything started off at the Technical University of Varna in Bulgaria in 2015, where I barely passed the informatics entry exam to qualify for my bachelor’s degree! In my first year, the bar was set quite low, and I was highly unmotivated because, apart from programming, as ‘prospective engineers’, we were forced into taking courses in electrical and mechanical engineering, which were notoriously difficult to clear. Quite a few people in our group dropped out, but I just managed to scrape by and move on.</p>
+<p>In my second year, I was quite frustrated with uni life, and I had already made up my mind that if I was going to learn anything meaningful in this life, I needed to reach out to people and find a ‘niche’ that I found genuinely interesting. So, I got in contact with senior developers, looked up their companies, and just started steamrolling through courses (free access to Coursera materials was a game-changer!).</p>
+<p>I took courses on everything from full-stack web development to mobile apps, and then I finally came across my first taste of AI and machine learning. During that time, I completed a short internship in optical character recognition and computer vision, which really opened my eyes to what was possible with AI.</p>
+<p>Fast-forward to 2019: I blinked twice and became a software engineering graduate with a competitive European scholarship, and was accepted to study an MSc in Artificial Intelligence at the University of Aberdeen. That’s where the healthcare sector came into play, and it really showed me how multi-faceted AI applications can be as products. As part of my dissertation and industrial placement, I collaborated with <a href="https://redstar.ai/" target="_blank">Red Star AI</a>, a Scottish healthcare startup, to develop an explainable AI tool for predicting patient outcomes from discharge notes. I built deep text classifiers using CNNs and then wrapped them with the LIME (explainability) framework to highlight which parts of discharge letters contributed most to predictions of mortality and readmission. That project made me realise how much impact AI could have on actual patient care, not just as an academic exercise but as something that could help clinicians make better decisions.</p>
+<p>What really hooked me was seeing how routine healthcare data, the kind that’s being collected every day across NHS Scotland, could be transformed into actionable insights. After my MSc, it was an easy decision to join the Precision Medicine PhD programme at the University of Edinburgh, as I had already built a foundation in wrangling routine healthcare data and pitching risk prediction algorithms to stakeholders across NHS Scotland.</p>
+<p>My PhD was essentially more of the same, but more focused on building decision-support tools that could drive better care for older people. I worked with some challenging, massive cohorts from NHS Lothian, developing machine learning models (shout-out to XGBoost!) to forecast everything from pre-symptomatic dementia risk up to predicting the exact number of healthcare contacts a patient would need during their hospital stay.</p>
+</section>
+<section id="once-you-joined-your-healthcare-organisation-what-was-that-experience-like-what-different-roles-and-teams-have-you-been-a-part-of-and-how-have-they-shaped-your-career" class="level3">
+<h3 class="anchored" data-anchor-id="once-you-joined-your-healthcare-organisation-what-was-that-experience-like-what-different-roles-and-teams-have-you-been-a-part-of-and-how-have-they-shaped-your-career">Once you joined your healthcare organisation, what was that experience like? What different roles and teams have you been a part of, and how have they shaped your career?</h3>
+<p>My healthcare data science journey has been quite multifaceted, which I think has been one of my greatest strengths. Since October 2020, even while doing my PhD, I’ve been working part-time as a Health Data Scientist with Red Star AI. One of our standout projects was the <a href="https://redstar.ai/products/fracture-liaison-service/">Fracture Liaison Service</a> for NHS Greater Glasgow &amp; Clyde. We designed XGBoost models predicting fragility fracture risk and built a clinical dashboard that ended up reducing case processing time by 55% and saved physicians 28 hours per week: that’s about a full working week freed up to focus on actual patient care.</p>
+<p>Between January and June 2025, I took on a role as a Data Science Officer with NHS England in Edinburgh and Leeds as part of their PhD Data Science Internships programme. This was actually on my second try and towards the end of my PhD, so never feel disheartened if you didn’t get the role! Overall, the job was a fantastic opportunity to dip my toes into NHS England practices and meet a whole network of new people from the NHSE engineering and data science teams.</p>
+<p>I learned about measuring fairness and explainability in multimodal AI for risk prediction. With the mentorship of my wonderful colleague Sophie Martin (now a postdoctoral researcher at UCL, working on some exciting dementia research!), I developed the <a href="https://github.com/nhsengland/mm-healthfair" target="_blank">MM-HealthFair</a> framework, an open-source PyTorch framework for understanding bias in deep multimodal fusion using the MIMIC-IV dataset. The toolkit turned out to be so comprehensive that it might’ve overcomplicated our narrative a bit! It incorporated fairness metrics (demographic parity, equalised odds), multimodal feature importance scoring (an extension of Shapley values for multimodal scenarios), and adversarial debiasing strategies.</p>
+<p>For me, this opened up so many potential avenues for researching new methods in fairness-aware learning and the importance of this when we’re talking about applying AI algorithms across our whole population. With the excellent help of my supervisors, Dan Schofield, Jonny Pearson and Jonathan Hope, we showed the many implications this could have for validating AI algorithms across NHS trusts and ensuring equitable implementation of clinical AI, which is even more important now with the wide range of foundation models being developed to solve complex medical tasks.</p>
+</section>
+<section id="what-are-you-currently-working-on-are-there-any-projects-that-youre-particularly-excited-about-or-that-you-feel-are-making-a-real-difference-what-impact-are-you-having" class="level3">
+<h3 class="anchored" data-anchor-id="what-are-you-currently-working-on-are-there-any-projects-that-youre-particularly-excited-about-or-that-you-feel-are-making-a-real-difference-what-impact-are-you-having">What are you currently working on? Are there any projects that you’re particularly excited about, or that you feel are making a real difference? What impact are you having?</h3>
+<p>Since October 2025, I’ve been a Postdoctoral Researcher at the University of Edinburgh, supported by a British Heart Foundation grant, and since then, I’ve shifted my focus to applying multimodal AI for improving the diagnosis of acute cardiac conditions in clinical practice. I am actively trying to bring together everything I’ve learned from multimodal fusion to fairness assessment into what I’m most excited about right now.</p>
+<p>I’m currently developing a novel multimodal foundation model that fuses Electronic Health Records (EHR), electrocardiogram (ECG) waveforms, and chest X-ray (CXR) images to predict acute cardiac conditions in the NHS Lothian (Edinburgh) emergency departments. We’re working with a rich cohort of over 170,000 patients from our <a href="https://dataloch.org/" target="_blank">DataLoch</a> Heart Disease Registry who experience acute coronary syndrome. The goal is to improve diagnostic precision for myocardial infarction, heart failure, and pulmonary embolism, all conditions that are becoming a major burden on our population, where early, accurate diagnosis is absolutely critical and where current diagnostic pathways can sometimes miss opportunities or order unnecessary tests.</p>
+<p>What makes this particularly exciting is that we’re not just building another AI model. Using my experience from the MM-HealthFair project, I’m investigating how different multimodal fusion mechanisms affect both diagnostic performance and fairness across socio-demographic groups here in Scotland. Healthcare data notoriously contains biases: whether that’s underrepresentation of ethnic groups, age gaps, or socioeconomic deprivation. And if we don’t actively address these, our AI systems will perpetuate or even amplify them when we combine multiple modalities together.</p>
+<p>The challenge is finding the optimal fusion strategy: do we fuse early at the feature level, late at the decision level, or somewhere in between? How do these choices impact fairness? And can we provide new helpful benchmarks for fairness that researchers can use in their own studies?</p>
+<p>The impact I’m hoping to achieve with this project is threefold. First, streamline risk interpretation in complex cardiac presentations: that is, help clinicians quickly identify high-risk patients who need immediate intervention. Second, reduce unnecessary clinical tests by safely ruling out low-risk patients who don’t need them, such as an echo when symptoms are not suggestive. Every avoided unnecessary test means lower healthcare costs, reduced patient anxiety, and freed-up resources for those who truly need them. Finally, as you might’ve guessed: fairness!! And this will ensure that the patient population is not being systematically disadvantaged by the AI system.</p>
+</section>
+<section id="looking-back-on-your-time-in-your-healthcare-organisations-data-science-team-what-were-the-most-impactful-moments-how-do-you-reflect-on-that-experience-now" class="level3">
+<h3 class="anchored" data-anchor-id="looking-back-on-your-time-in-your-healthcare-organisations-data-science-team-what-were-the-most-impactful-moments-how-do-you-reflect-on-that-experience-now">Looking back on your time in your healthcare organisations Data Science team, what were the most impactful moments? How do you reflect on that experience now?</h3>
+<p>One of the standout moments from my time with the NHS England Data Science team was seeing MM-HealthFair grow from a rough idea in a notebook to a fully fledged open-source framework that other people in the NHS could install, run, and critique. It was the first time I’d built a toolkit with so many complex components covering fairness, explainability, and multimodal performance, all treated as coequal design goals rather than add-ons, and watching colleagues stress-test it against real clinical questions made the work feel very concrete.</p>
+<p>I also really valued the internal discussions around “what good looks like” for AI in the NHS: meaning not just AUROC, but questions about protected characteristics, deployment risk, and how to communicate limitations to non-technical teams. Those conversations, plus the chance to contribute something reusable to the wider NHSE GitHub ecosystem, were easily the most meaningful parts of the internship for me.</p>
+<p>Professionally, the experience pushed me to level up my data science skills and critical thinking (especially important in academia). I became much more rigorous about reproducibility and engineering standards. I deepened my understanding of fairness methodology in a very practical sense: thinking carefully about model trade-offs and how to explain them to clinicians. Finally, I got better at stakeholder communication: translating fairly involved multimodal fusion explanations into something that clinical and policy colleagues could challenge, and ultimately see value in.</p>
+</section>
+<section id="if-you-could-give-someone-just-starting-out-in-data-science-a-few-pieces-of-advice-what-would-they-be-and-what-resources-have-you-found-particularly-helpful-along-the-way-that-you-can-share" class="level3">
+<h3 class="anchored" data-anchor-id="if-you-could-give-someone-just-starting-out-in-data-science-a-few-pieces-of-advice-what-would-they-be-and-what-resources-have-you-found-particularly-helpful-along-the-way-that-you-can-share">If you could give someone just starting out in data science a few pieces of advice, what would they be? And what resources have you found particularly helpful along the way that you can share?</h3>
+<p>My first piece of advice would be not to focus too much on resources, but to build a mindset: build a strong foundation, sure, but also don’t forget to seek advice while you’re at it. Read papers, talk to healthcare professionals, talk to programme managers who lead initiatives you’re interested in, and even shadow clinicians in their work if you can. I think the best data science in healthcare happens at the intersection of technical excellence and collaboration.</p>
+<p>Also, try to put everything you do out in the open (I need to take this advice as well, as it’s not so easy with closed research environments!). Build projects, contribute to open source, and make your code available on GitHub. I feel that this often encourages you to write clean, well-documented code and to think carefully about how others will use your work.</p>
+<p>Try to think about the full project lifecycle and not just the exciting modelling bit. Yes, XGBoost and PyTorch are powerful tools, but you’ll spend far more time on data extraction, cleaning, feature engineering, and validation than on tuning hyperparameters. Learn to work with messy real-world data. My experience setting up big data pipelines (e.g., MLOps), whether it’s extracting features from MIMIC-IV or working with real Scottish Morbidity Records from multiple NHS health boards, has been just as valuable, if not more so, than my modelling skills.</p>
+<p>We have unprecedented amounts of data, powerful computational tools, and growing recognition from healthcare systems that AI can genuinely improve patient outcomes. But we also need to do it responsibly, and that creates many opportunities to take on exciting projects.</p>
+<hr>
+<p>We hope you have found Konstantin’s interview insightful! If you are interested in learning more about the Data Scientists working in healthcare, you can read our previous iterations of the <a href="https://nhsengland.github.io/datascience/articles/category/data-science-interviews/">“Interview with a Data Scientist”</a> on the NHS England Data Science Website.</p>
+</section></details>
+<hr>
+
+<section id="march-analyst-x-data-science-huddle" class="level1 section-heading">
+<h1>March Analyst X Data Science Huddle</h1>
+</section>
+<p>Recently, we had our March Analyst X Data Science Huddle!</p>
+<p>We heard from two projects:</p>
+<ul>
+<li>A Semi-Automated Annotation Workflow for Medical Reports Using Small Language Models</li>
+<li>Domain-Specific LLM Evaluation on Open-Ended Generation Tasks Presented</li>
+</ul>
+<p>As always, thank you to our presenters for sharing their interesting work!</p>
+<p>Missed the session? <a href="https://future.nhs.uk/DataAnalytics/view?objectID=56936784" target="_blank">Check out the recording and PowerPoint slides here</a>, where you will also find the recordings of previous huddles.</p>
+<hr>
+<section id="april-analyst-x-data-science-huddle" class="level1 section-heading">
+<h1>April Analyst X Data Science Huddle</h1>
+</section>
+<p><strong>Tuesday 28th April 2026, 13:30 - 14:30, Online</strong></p>
+<p>Thank you for those who have shown interest in presenting at an Analyst X Data Science Huddle!</p>
+<p>The Data Science Community for Health and Care have organised the next Analyst X Data Science Huddle for March. The session will contain two slots, covering two projects:</p>
+<ul>
+<li><p>Slot 1 (13:30 - 14:00): Leveraging Data Science to Support a District General Hospital (DGH) Presented by Abhinav Gupta</p></li>
+<li><p>Slot 2 (14:00 - 14:30): How I adapted the NHSR Waiting List package for Community Waits and how it could be used in other areas Presented by Simon Wellesley-Miller</p></li>
+</ul>
+<p>This will be sent out on Monday 30th of March with further details.</p>
+<p>If you would like to be invited to future events of ours, <a href="https://forms.office.com/pages/responsepage.aspx?id=slTDN7CF9UeyIge0jXdO48pr_29hyJFKpCZ7SYYvjeFUNUVPMUk0STlDRlJMNklIWEI3V0NZVTZXVS4u&amp;route=shorturl" target="_blank">sign up to our mailing list!</a></p>
+<hr>
+<section id="synthetic-clinical-notes-work---now-published" class="level1 section-heading">
+<h1>Synthetic Clinical Notes Work - Now Published!</h1>
+</section>
+<p>On January 20th, we had Ben Wallace and Will Poulett present their work at one of our Analyst X Data Science Huddles: <strong>“Generating Synthetic Patient Pathways and Clinical Notes Using LLMs.”</strong> A recording can be accessed <a href="https://future.nhs.uk/DataAnalytics/view?objectID=56936784">here</a>.</p>
+<p>As you might remember, they mentioned they were working on getting their work published. It is now available on GitHub:</p>
+<p><a href="https://github.com/nhsengland/synthetic_clinical_notes/blob/main/README.md">https://github.com/nhsengland/synthetic_clinical_notes</a></p>
+<p>If you have any questions about the codebase, you can contact Will at <a href="mailto:william.poulett1@nhs.net">william.poulett1@nhs.net</a> or Scarlett at <a href="mailto:scarlett.kynoch1@nhs.net">scarlett.kynoch1@nhs.net</a> .</p>
+<hr>
+<section id="events" class="level1 section-heading">
+<h1>Events</h1>
+</section>
+<p>Lots of exciting things coming up! See the <a href="https://future.nhs.uk/DataAnalytics/view?objectID=861745" target="_blank">full calendar here</a>, and a small selection below.</p>
+<section id="art-of-the-possible-llm-enhanced-research-methods-for-large-scale-qualitative-data" class="level3">
+<h3 class="anchored" data-anchor-id="art-of-the-possible-llm-enhanced-research-methods-for-large-scale-qualitative-data"><a href="https://www.lse.ac.uk/dsi/events/2025-26/research-events/art-of-the-possible" target="_blank">Art of the possible: LLM-enhanced research methods for large scale qualitative data</a></h3>
+<p><strong>Wednesday 1st April, 12:30 - 14:00, London School of Economics COL.1.06</strong></p>
+<p>LLMs provide unprecedented potential for analysing qualitative data at scale, but that potential cannot be achieved with ad-hoc chatbot interactions. We need structured, rigorous and auditable pipelines.</p>
+<p>In this talk, Lee Mager, DSI Faculty Affiliate and Digital Innovation Lead at LSE Law School, draws on three large-scale research projects which:</p>
+<p>classify 100,000+ foreign investment projects against EU sustainability criteria code corporate governance documents from S&amp;P 500 companies’ SEC filings across 25 years comparative analysis of news media discourse on critical raw materials</p>
+</section>
+<section id="turing-roche-festival-exploring-health-ai-in-practice" class="level3">
+<h3 class="anchored" data-anchor-id="turing-roche-festival-exploring-health-ai-in-practice"><a href="https://www.turing.ac.uk/events/turing-roche-festival-exploring-health-ai-practice" target="_blank">Turing-Roche festival: Exploring Health AI in Practice</a></h3>
+<p><strong>Tuesday 7th Apr 2026, 14:00 - 17:00, Online &amp; Alan Turing Institute</strong></p>
+<p>This festival includes talks from Dr.&nbsp;Hatim Abdulhussein, Samiran Dey, and a presentation from the Turing-Roche enrichment students Reed Naidoo, Jingyu Hu and Giuseppe Tripodi. There will also be time for networking and collaboration.</p>
+<ul>
+<li><p>2pm-2.15pm - Introduction to speakers and the Turing-Roche partnership</p></li>
+<li><p>2.15pm-3pm - AI in Practice: NHS Experiences and How to Engage, a talk by Hatim Abdulhussein</p></li>
+<li><p>3pm-3.30pm - tea/coffee break</p></li>
+<li><p>3.30pm-4pm - Crossmodal generative AI for multimodal cancer data, a talk by Samiran Dey</p></li>
+<li><p>4pm-4.30pm - A talk on Multimodal Cancer AI by the Turing-Roche enrichment students: Reed Naidoo, Jingyu Hu and Giuseppe Tripodi</p></li>
+<li><p>4.30pm-5pm - Networking and further discussion over snacks.</p></li>
+</ul>
+<p>This event is free to attend but you need to register.</p>
+</section>
+<section id="the-turing-lectures-frontier-ai-under-pressure---building-resilience-across-layers" class="level3">
+<h3 class="anchored" data-anchor-id="the-turing-lectures-frontier-ai-under-pressure---building-resilience-across-layers"><a href="https://www.turing.ac.uk/events/turing-lectures-frontier-ai-under-pressure-building-resilience-across-layers" target="_blank">The Turing Lectures: Frontier AI under pressure - building resilience across layers</a></h3>
+<p><strong>Tuesday 28th Apr 2026, 18:00 - 21:00, Online &amp; British Library, Knowledge Centre, London</strong></p>
+<p>The Alan Turing Institute’s flagship public lecture series returns for its 10th year, bringing world-leading thinking in data science and AI to the forefront of national conversation.</p>
+<p>Frontier AI – highly advanced AI systems, such as GPT-5 or DeepMind’s Gemini, that push the limits of what machines can do – is moving faster than our institutions can keep up. This creates challenges that aren’t just technical, but affect the whole system, including AI models, policies, organisations and human decision-making.</p>
+<p>Join us for the first of our Turing Lectures to explore resilience not as a simple technical fix, but as a broader challenge that spans AI, institutions, policy and human judgement.</p>
+<p>Tickets for this event are free if you attend the livestream, and £12 if you attend in person.</p>
+</section>
+<section id="the-turing-lectures-making-ai-truly-sustainable---from-environmental-costs-to-social-impacts" class="level3">
+<h3 class="anchored" data-anchor-id="the-turing-lectures-making-ai-truly-sustainable---from-environmental-costs-to-social-impacts"><a href="https://www.turing.ac.uk/events/turing-lectures-making-ai-truly-sustainable-environmental-costs-social-impacts" target="_blank">The Turing Lectures: Making AI (truly) sustainable - from environmental costs to social impacts</a></h3>
+<p><strong>Wednesday 27th May 2026, 18:00 - 21:00, Online &amp; British Library, Knowledge Centre, London</strong></p>
+<p>It’s not news that AI has an environmental impact, and, as training models expand, so does the strain they place on the environment and energy grids around the world.</p>
+<p>AI models can transform society – improving efficiency, reducing wasted resources and accelerating innovation. Behind every model trained, every query processed and every dataset stored, though, lies a complex web of environmental, economic and social impacts.</p>
+<p>Dr Sasha Luccioni, Climate Lead at global responsible AI start-up Hugging Face, has featured on Business Insider’s AI Power List for two years running, given two highly watched TED Talks on AI and, in 2024, was featured in both the BBC’s 100 inspiring and influential women from around the world and TIME Magazine’s 100 most influential people in AI lists.</p>
+<p>Join us for an evening of insight and discussion where Sasha leads us through solid, evidence-based steps the AI ecosystem can take towards true sustainability.</p>
+<p>Tickets for this event are free if you attend the livestream, and £12 if you attend in person.</p>
+<hr>
+<p>See more future events on the <a href="https://future.nhs.uk/DataAnalytics/view?objectID=861745" target="_blank">calendar</a></p>
+<p>Know of any events we should feature next month? Let us know by clicking the “Contribute” button, or <a href="https://github.com/nhsengland/datascience-pd-newsletter/issues/new?assignees=&amp;labels=&amp;projects=&amp;template=suggest-some-newsletter-content-.md&amp;title=" target="_blank">here</a>.</p>
+<hr>
+<p>Check out our collection of training resources in the <a href="https://future.nhs.uk/DataAnalytics/view?objectID=861745" target="_blank">Resources Section</a>! Can you spot something missing? <a href="mailto:datascience@nhs.net">Contact us</a>!</p>
+</section>
+<section id="need-a-quick-break" class="level1 section-heading">
+<h1>Need a Quick Break?</h1>
+</section>
+<p><a href="https://mywordle.strivemath.com/?word=psipd" target="_blank">How many tries will it take you?</a></p>
+<div style="text-align: center;">
+<p><a href="https://forms.office.com/pages/responsepage.aspx?id=slTDN7CF9UeyIge0jXdO48pr_29hyJFKpCZ7SYYvjeFUNUVPMUk0STlDRlJMNklIWEI3V0NZVTZXVS4u&amp;route=shorturl" class="btn-action-primary btn-action btn btn-success btn-lg">Subscribe to the community</a><a href="https://github.com/nhsengland/datascience-pd-newsletter/issues/new?assignees=&amp;labels=&amp;projects=&amp;template=suggest-some-newsletter-content-.md&amp;title=" class="btn-action-primary btn-action btn btn-info btn-lg" target="_blank">Contribute</a><a href="./newsletter.pdf" class="btn-action-primary btn-action btn btn-info btn-lg" target="_blank">PDF Version</a></p>
+</div>
+
+
+
+ ]]></description>
+  <category>newsletter</category>
+  <category>interview with a data scientist</category>
+  <guid>https://nhsengland.github.io/datascience-pd-newsletter/posts/2026_03/newsletter.html</guid>
+  <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Data Science Community for Health and Care Newsletter February 2026</title>
   <dc:creator>Elizabeth Kelly, Mary Amanuel</dc:creator>
@@ -2253,132 +2414,6 @@ Basically, combine structured learning with practical application, and don’t b
   <category>newsletter</category>
   <guid>https://nhsengland.github.io/datascience-pd-newsletter/posts/2024_08/newsletter.html</guid>
   <pubDate>Wed, 21 Aug 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Professional Development Newsletter July 2024</title>
-  <dc:creator>Jennifer Struthers</dc:creator>
-  <dc:creator>Warren Davies</dc:creator>
-  <dc:creator>Liz Kelly</dc:creator>
-  <link>https://nhsengland.github.io/datascience-pd-newsletter/posts/2024_07/newsletter.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><img src="https://nhsengland.github.io/datascience-pd-newsletter/images/banner_july.png" class="img-fluid"></p>
-<p>Welcome to the latest Professional Development newsletter, brought to you by the Data Science skilled team Professional Development Functional Team.</p>
-<p>The newsletter team are always happy to receive constructive feedback, and we invite you to send us any contributions you may have.</p>
-<p>There are some legacy NHS Digital items which we have identified with❗</p>
-<p>If you cannot access something of interest to you, please <a href="https://github.com/nhsengland/datascience-pd-newsletter/issues/new" target="_blank">reach out</a>.</p>
-<p>Thanks for reading! – PD newsletter team</p>
-<section id="health-and-care-analytics-conference" class="level1 section-heading">
-<h1>Health and Care Analytics Conference</h1>
-</section>
-<p><em>This month some of the NHS England Data Science team went to the Health and Care Analytics Conference (HACA) 2024, hosted in Telford. The team had various talks, posters and workshops delivered at the conference about our work and projects. Warren Davies reports back.</em></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://nhsengland.github.io/datascience-pd-newsletter/posts/2024_07/warren_talk.jpg" class="img-fluid figure-img"></p>
-<figcaption>NHS England RAP Star Warren Davies giving a talk at HACA on RAP Principles</figcaption>
-</figure>
-</div>
-<p>At the HACA conference 2024 I gave a talk on RAP to a huge crowd, over 4,000 people, great people, the best people. OK more like 70. And I also helped run workshops on Python and RAP. I highly recommend the experience overall. I gained the following XP:</p>
-<ul>
-<li><p><strong>+10 Planning</strong> – it’s tricky to plan when you don’t know in advance the size and experience of the audience (in the workshops we opted to give a flavour of what was possible, along with some simple exercises people could follow along with).</p></li>
-<li><p><strong>+10 Schmoozing</strong> – it is actually very easy. People are very happy to talk about their work and how you might be able to help them.</p></li>
-<li><p><strong>+20 Resilience</strong> – public speaking can be nerve wracking but that is OK, it’s just weakness leaving the body.</p></li>
-</ul>
-<p>But you also have the opportunity to help other people. It’s easy to take for granted in NHS England that we basically have a huge bunch of geniuses at our beck and call that that we can pester and learn from every day. But not every analyst in the wider NHS and health world is so lucky. Within trusts and regional organisations, there are often small teams - or even individuals - who do similar work to us but don’t have the kind of support we do.</p>
-<p>With events like HACA we have the chance to connect with them, and point them to resources and communities they might not know about. Which not only helps them, but gives you a warm fuzzy feeling inside too (incidentally, it also ticks a whole load of those “Sharing knowledge” boxes on the competency framework…).</p>
-<p>You should definitely go next time. You will build your networking skills, help people out, and get loads of great examples you can use when you apply for that promotion. Plus, everyone loves a road trip right?</p>
-<section id="school-placement" class="level1 section-heading">
-<h1>School Placement</h1>
-</section>
-<p>In July, the NHS England Data Science Professional Development Functional Team hosted a school placement, hosting five students from a London based secondary school to teach them about our work and show them some of the skills they would need to start a career in data science. Liz Kelly describes her experience, working to prepare this week to show the school pupils what our team does, and give them a taste of how it might be to work with us.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://nhsengland.github.io/datascience-pd-newsletter/posts/2024_07/school.jpg" class="img-fluid figure-img"></p>
-<figcaption>Some really happy cartoon kids on a school placement, ready to learn about the NHS England Data Science team.</figcaption>
-</figure>
-</div>
-<p>This was a rewarding yet difficult task, involving a lot of admin, paperwork, and even a conversation with NHS England lawyers to check we were dotting all our i’s and crossing all our t’s. Naturally, after all this, there were still the dreaded tech setup issues (<em>sigh</em>). But Chaeyoon did an amazing job at fixing them in record time, so the students could still get the most out of their placement.</p>
-<p>As a graduate in the Data Science team, I know first-hand how valuable it is for colleagues to take time to explain the various cogs in the NHS system. Because let’s be honest, it’s a bit complicated. So, we made sure to cover as many areas as possible to help with this understanding.</p>
-<p>About half of the data scientists (a total of 22) met students during the placement week, alongside more indirect engagements from others such as helping with the training materials. The students rotated through four data science teams and were introduced to two methods of data science ways of working: python programming and collaborative works on GitHub. At the end of the placement week, they had a mock interview and an optional task to build a classifier function with if-else conditions to find which group (from the placement sessions) they could match to the session information. It is incredible to think some of the students had never touched programming before and yet, by the end of the week, they had a basic understanding of Python!</p>
-<p>I personally enjoyed the challenge of organising the timetable for the students and leading them through workshops and career talks. Who doesn’t love a good to-do list! And since I don’t cover this kind of outreach in my day-to-day role, this was an excellent opportunity. I could tick off those leadership and mentoring competencies, not to mention dealing with complexity (those pesky access and tech issues). I will admit, teaching a group over Teams is trickier than I thought, especially interactive sessions. The students were eager to discuss and answer questions but sometimes their meeting room microphone didn’t quite catch what they were saying … or perhaps it was just me and the London accent.</p>
-<p>As this was the first of its kind, it took a while to discover all the rules and policies. Now we have done this once, subsequent placements should be a lot easier to host. We have collated the resources used <a href="https://github.com/nhsengland/PD_kanban_board/blob/main/PD%20Outreach/Host%20a%20placement.md" target="_blank">here</a>, currently accessible to those in NHSE DS GitHub team. We are working to collate and publish our resources more widely in the future.</p>
-<p>As soon as we say “I work for the NHS”, peoples first thoughts are frontline staff, not data scientists. It wasn’t until I was graduating university that I stumbled across data science roles in the NHS and even then, it was purely accidental. When I think back to my time at school I would have loved to do this work experience week in the NHS.</p>
-<p>I know I am not alone when I say just how important it is to introduce young people to Data Science, particularly in the NHS. This provides them with more avenues to follow and more ideas of what is out there. It makes the world of possibilities just that bit bigger.</p>
-<p>Once again, thank you to everyone involved. I’m sure you’ll agree the placement week was a success, just perhaps short of a few tea and biscuit breaks. The students are not used to being at a desk all day!</p>
-<section id="events" class="level1 section-heading">
-<h1>Events</h1>
-</section>
-<p>Lots of exciting things coming up! See the <a href="https://nhsd-confluence.digital.nhs.uk/display/DAT/calendars" target="_blank">full calendar here</a>❗</p>
-<section id="practical-applications-of-generative-ai-building-a-chatbot-answering-questions-about-your-documents." class="level3">
-<h3 class="anchored" data-anchor-id="practical-applications-of-generative-ai-building-a-chatbot-answering-questions-about-your-documents."><a href="https://datasciencefestival.com/session/dunnhumby-talk/" target="_blank">Practical applications of Generative AI: building a chatbot answering questions about your documents.</a></h3>
-<p><strong>Tuesday 13th August 2024, 13:00 - 14:00, Online</strong></p>
-<p>The recent explosion on the scene of Generative AI and Large Language Models (LLMs) is creating a vast array of opportunities. There is more than one way to leverage this recent breakthrough. You can create a chatbot by directly “plugging” to a LLM and start asking questions. However, LLMs are limited to the information available in the data they have seen during their training. So how to build a chatbot that will be able to answer questions related to documents that the model has never seen. One solution is to use a technique called “Retrieval Augmented Generation” (RAG). After an introduction of Generative AI and transformers, we will go through the RAG logic and explore its benefits and potential drawbacks. The talk is intended for anyone interested in generative AI and its potential applications.</p>
-</section>
-<section id="translational-science-methods-club-explainable-ai" class="level3">
-<h3 class="anchored" data-anchor-id="translational-science-methods-club-explainable-ai"><a href="https://www.turing.ac.uk/events/translational-science-methods-club-explainable-ai" target="_blank">Translational Science Methods Club: Explainable AI</a></h3>
-<p><strong>Tuesday 20th Aug 2024, 15:30 - 17:00, Virtual Seminar</strong></p>
-<p>The theme of this T-SciM event will be explainable AI (XAI). This refers to a range of approaches that seek to design or evaluate ways to make the outputs of artificial intelligence algorithms more interpretable. Such explainability is important to better understand the mechanisms underlying the models computations and determine how trustworthy and generalisable their results are.</p>
-<p>We will be joined by 3 speakers, who will give short talks introducing their work on XAI, followed by a panel discussion with questions and prompts from the audience.</p>
-<p>Speakers include: Dr Ahmed Salih, Dr Tapabrata (Rohan) Chakraborty and Sophie Martin (ex-PhD intern with the NHSE DS team).</p>
-</section>
-<section id="health-data-science-seminar-series-transforming-healthcare-ai-in-health-data-science" class="level3">
-<h3 class="anchored" data-anchor-id="health-data-science-seminar-series-transforming-healthcare-ai-in-health-data-science"><a href="https://www.eventbrite.co.uk/e/health-data-science-seminar-series-tickets-947750486217?aff=ebdssbdestsearch" target="_blank">Health Data Science Seminar Series: Transforming Healthcare: AI in Health Data Science</a></h3>
-<p><strong>Thursday 12th September 2024, 14:00 - 15:30, Teams</strong></p>
-<p>This series of seminars presents an exciting opportunity to hear about recent developments in health data science, generate ideas and help build the health data science community. It is hosted by the ONS’s Data Science Campus and Health Analysis Team in partnership with Health Data Research UK (HDR UK).</p>
-<p>The Health Data Science Seminar series provides a dedicated space for data scientists, policymakers, health professionals, academics, epidemiologists, statisticians and other members of the data science community to come together and explore the potential of data science, to help improve health and health policy.</p>
-<p>This event will feature presentations from guest speakers including:</p>
-<p>Dr Siegfried Karl Wagner - Ophthalmologist and senior research fellow, University College London Professor Christopher Yau - Professor of Artificial Intelligence and Turing AI Fellow, University of Oxford</p>
-</section>
-<section id="data-science-festival-oktoberfest" class="level3">
-<h3 class="anchored" data-anchor-id="data-science-festival-oktoberfest"><a href="https://datasciencefestival.com/event/oktoberfest-2024/" target="_blank">Data Science Festival: Oktoberfest</a></h3>
-<p><strong>Saturday 19th October 2024, 9am-5pm, CodeNode London</strong></p>
-<p>Apply for a FREE ballot entry to this years DSF Oktoberfest. Top tech speakers, incredible partners and a thriving community. There will be a mixture of talks featured at the festival, covering all things data (science, engineering, etc) and a variety of technical levels.</p>
-<p><a href="https://www.youtube.com/playlist?list=PLwzX3WM0AfxopbhVhGCA373Xk-7wNhLfq" target="_blank">Check out highlights from last year here.</a></p>
-</section>
-<section id="nhs-rpysoc-2024-conference---registration-opened" class="level3">
-<h3 class="anchored" data-anchor-id="nhs-rpysoc-2024-conference---registration-opened"><a href="https://nhsrcommunity.com/events/nhs-r-nhs-pycom-open-source-conference-nhs-rpysoc-2024-2024-ticket-for-in-person-attendance-on-thursday-21-november-2024/" target="_blank">NHS RPySOC 2024 Conference - registration opened</a></h3>
-<p><strong>Thursday 21st-22nd November, 9am-5pm, in-person (Birmingham) / Online</strong></p>
-<p>The <strong>NHS RPySOC 2024 conference</strong> is open for registration now! It will be on <strong>21st &amp; 22nd November in Birmingham</strong>. This is jointed hosted by the NHS R Community and NHS.pycom, and also promotes Open Source.</p>
-<ul>
-<li>Day 1 will be a mixture of presentations, workshops and lightening talks</li>
-<li>Day 2 <strong>(in-person only)</strong> will be ‘Unconference’ with suggestions for topics being taken on day 1.</li>
-</ul>
-<p>It’s a great chance to show off our work, share our learning with a like minded community and learn a few things yourself, such as the state of the industry and how techniques are being applied elsewhere.</p>
-<p>You can either attend:</p>
-<ul>
-<li><a href="https://nhsrcommunity.com/events/nhs-r-nhs-pycom-open-source-conference-nhs-rpysoc-2024-2024-ticket-for-in-person-attendance-on-thursday-21-november-2024/">In-Person (The ICC, Hall 11, Birmingham B1 2EA</a></li>
-<li><a href="https://nhsrcommunity.com/events/nhs-r-nhs-pycom-open-source-conference-2024-rpysoc-2024-ticket-for-virtual-attendance-on-thursday-21-november-2024/">Online</a></li>
-</ul>
-<p><strong><a href="https://nhsrway.nhsrcommunity.com/conference.html#rpysoc-24-conference---call-for-abstracts" target="_blank">Got something to present? Abstract submissions deadline extended to Monday 12th August!</a></strong></p>
-<hr>
-<p>See more future events on our <a href="https://nhsd-confluence.digital.nhs.uk/display/DAT/Events+calendar" target="_blank">confluence calendar</a>❗ Know of any events we should feature next month? Let us know by clicking the “Contribute” button, or <a href="https://github.com/nhsengland/datascience-pd-newsletter/issues/new?assignees=&amp;labels=&amp;projects=&amp;template=suggest-some-newsletter-content-.md&amp;title=" target="_blank">here</a>.</p>
-<hr>
-</section>
-<section id="digital-health-hive" class="level1 section-heading">
-<h1>Digital Health Hive</h1>
-</section>
-<p>Yorkshire based, and interested in joining a community of patients, healthcare professionals and decision makers, companies, and researchers with an interest in digital health, and engaging and interacting with one another to develop digital health research and tools? Join the Digital Health Hive by completing <a href="https://forms.office.com/e/B0gNDcYYNT" target="_blank">this form</a> or emailing <a href="mailto:digitalhealthhive@leeds.ac.uk">digitalhealthhive@leeds.ac.uk</a></p>
-<div class="text-center">
-<p><img src="https://nhsengland.github.io/datascience-pd-newsletter/posts/2024_07/digital_health_hive.png" class="img-fluid"></p>
-</div>
-<hr>
-<section id="need-a-quick-break" class="level1 section-heading">
-<h1>Need a Quick Break?</h1>
-</section>
-<p><a href="https://mywordle.strivemath.com/?word=yzvdy" target="_blank">How many tries will it take you?</a></p>
-<div style="text-align: center;">
-<p><a href="https://forms.office.com/pages/responsepage.aspx?id=slTDN7CF9UeyIge0jXdO48pr_29hyJFKpCZ7SYYvjeFUNUVPMUk0STlDRlJMNklIWEI3V0NZVTZXVS4u&amp;route=shorturl" class="btn-action-primary btn-action btn btn-success btn-lg">Subscribe to the community</a><a href="https://github.com/nhsengland/datascience-pd-newsletter/issues/new?assignees=&amp;labels=&amp;projects=&amp;template=suggest-some-newsletter-content-.md&amp;title=" class="btn-action-primary btn-action btn btn-info btn-lg" target="_blank">Contribute</a><a href="./newsletter.pdf" class="btn-action-primary btn-action btn btn-info btn-lg" target="_blank">PDF Version</a></p>
-</div>
-
-
-
- ]]></description>
-  <category>newsletter</category>
-  <guid>https://nhsengland.github.io/datascience-pd-newsletter/posts/2024_07/newsletter.html</guid>
-  <pubDate>Wed, 31 Jul 2024 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
