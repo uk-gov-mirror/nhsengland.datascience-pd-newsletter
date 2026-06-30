@@ -11,7 +11,86 @@
 <description>A newsletter to share professional development tips and opportunities for people interested in healthcare data science
 </description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Fri, 29 May 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 30 Jun 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Data Science Community for Health and Care Newsletter June 2026</title>
+  <dc:creator>Elizabeth Kelly</dc:creator>
+  <link>https://nhsengland.github.io/datascience-pd-newsletter/posts/2026_06/newsletter.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://nhsengland.github.io/datascience-pd-newsletter/images/banner_june.png" class="img-fluid"></p>
+<p>Welcome to the latest newsletter from the Data Science Community for Health and Care, brought to you by the NHS England Data Science Professional Development Functional Team.</p>
+<p>The newsletter team are always happy to receive constructive feedback, and we invite you to send us any contributions you may have.</p>
+<p>If you cannot access something of interest to you, please <a href="https://github.com/nhsengland/datascience-pd-newsletter/issues/new" target="_blank">reach out</a>.</p>
+<p>Thanks for reading! – newsletter team</p>
+<section id="june-analyst-x-data-science-huddle---date-change" class="level1 section-heading">
+<h1>June Analyst X Data Science Huddle - DATE CHANGE</h1>
+</section>
+<p><strong>Tuesday 7th July 2026, 10:30 - 11:30, Online</strong></p>
+<p>The next Analyst X Data Science Huddle for June has been rearranged for Tuesday 7th July. We will here from one project; see the abstract below.</p>
+<ul>
+<li><strong>Predicting Length of Stay: Explainable, Continuously Updated Discharge Forecasting to Reduce Overstays Presented by Adam Hollings</strong></li>
+</ul>
+<p>Estimated discharge dates (EDD) are often missing and, when present, are frequently inaccurate — even when predicting discharge within the next 24 hours. This lack of reliability reduces staff confidence in forward planning and can result in patients who are medically optimised for discharge remaining in hospital beds longer than necessary.</p>
+<p>We are working directly with a trust to address this problem by developing a model that predicts patient length of stay using admissions, patient, and treatment data from the CDM (Canonical Data Model) within the Federated Data Platform (FDP). A key challenge is the volume and diversity of information feeding into the EDD decision, which makes explainability essential for clinical and operational trust.</p>
+<p>The model inference predictions will be able to be updated daily for a patient as new information becomes available. Crucially, the tool will highlight which changes in patient or pathway variables are driving changes in the predicted discharge window, allowing users to understand not just what has changed, but why.</p>
+<p>Alongside model development, we have treated integration into user workflows as a first‑class requirement — ensuring outputs are actionable, interpretable, and aligned with how discharge planning decisions are made in practice and the tools they prefer to use. As the tool matures, we are exploring the incorporation of multi‑modal data to further allow the model to meet the users needs and improve predictive performance.</p>
+<section id="events" class="level1 section-heading">
+<h1>Events</h1>
+</section>
+<p>Lots of exciting things coming up! See the <a href="https://future.nhs.uk/DataAnalytics/view?objectID=861745" target="_blank">full calendar here</a>, and a small selection below.</p>
+<section id="london-data-week" class="level3">
+<h3 class="anchored" data-anchor-id="london-data-week"><a href="https://londondataweek.org/ldw26-events/" target="_blank">London Data Week</a></h3>
+<p><strong>4 July 2026 - 12 July 2026, Various Times, Various Locations</strong></p>
+<p>London Data Week (LDW) is a citywide, week-long public festival of data. Different organisations across London design and host public events over the week of the festival.</p>
+<p>Take a look at the link for all the London Data Week events on this year!</p>
+</section>
+<section id="whose-ai-is-it-anyway-data-sovereignty-and-the-geopolitics-of-intelligence" class="level3">
+<h3 class="anchored" data-anchor-id="whose-ai-is-it-anyway-data-sovereignty-and-the-geopolitics-of-intelligence"><a href="https://www.lse.ac.uk/dsi/events/2025-26/public-events/whose-ai-is-it-anyway" target="_blank">Whose AI is it anyway? Data, sovereignty, and the geopolitics of intelligence</a></h3>
+<p><strong>Wednesday 8 July 2026, 18:30pm - 20:30pm, Bush House, King’s College London, 30 Aldwych, WC2B 4BG</strong></p>
+<p>In-person public event hosted by the Data Science Institute and King’s Institute for Artificial Intelligence as part of London Data Week.</p>
+<p>When Anthropic’s Fable 5 was ordered offline worldwide just three days after its release, it sharpened a question artificial intelligence increasingly raises: who’s in control?</p>
+<p>​Most governments talk about ‘sovereign’ AI and some are now building it, but what does it really mean for a country, an institution, or a citizen to have a say over those systems? What happens when that control slips?</p>
+<p>​Join the LSE Data Science Institute and <a href="https://www.kcl.ac.uk/ai" target="">King’s Institute for Artificial Intelligence</a> for a public panel bringing together leading voices to explore the technology, politics and security of AI and data sovereignty, and what’s at stake for the UK.</p>
+<p>Followed by a drinks reception.</p>
+</section>
+<section id="brics-x-turing---isambard-ai-workshop-21st-july-2026" class="level3">
+<h3 class="anchored" data-anchor-id="brics-x-turing---isambard-ai-workshop-21st-july-2026"><a href="https://www.turing.ac.uk/events/brics-x-turing-isambard-ai-workshop-21st-july-2026" target="_blank">BriCS x Turing - Isambard-AI workshop (21st July 2026)</a></h3>
+<p><strong>Tuesday 21 July 2026, 10:00 - 16:00, Enigma 2.0, The Alan Turing Institute, British Library, 96 Euston Rd, London, NW1 2DB</strong></p>
+<p>The Bristol Centre for Supercomputing (BriCS) and The Alan Turing Institute are running a joint 1-day introductory workshop on Isambard-AI.</p>
+<p>The workshop is open to participants from UK research organisations (e.g.&nbsp;universities, NHS bodies, research institutes) and industry (UK registered business of any size with a Companies House registration number).</p>
+<p>The workshop is free but you must register for a place. The workshop covers:</p>
+<ul>
+<li>Introduction to Isambard-AI</li>
+<li>Distributed PyTorch Training<br>
+</li>
+<li>PyTorch Profiling</li>
+<li>Containers</li>
+</ul>
+<hr>
+<p>See more future events on the <a href="https://future.nhs.uk/DataAnalytics/view?objectID=861745" target="_blank">calendar</a></p>
+<p>Know of any events we should feature next month? Let us know by clicking the “Contribute” button, or <a href="https://github.com/nhsengland/datascience-pd-newsletter/issues/new?assignees=&amp;labels=&amp;projects=&amp;template=suggest-some-newsletter-content-.md&amp;title=" target="_blank">here</a>.</p>
+<hr>
+<p>Check out our collection of training resources in the <a href="https://future.nhs.uk/DataAnalytics/view?objectID=861745" target="_blank">Resources Section</a>! Can you spot something missing? <a href="mailto:datascience@nhs.net">Contact us</a>!</p>
+</section>
+<section id="need-a-quick-break" class="level1 section-heading">
+<h1>Need a Quick Break?</h1>
+</section>
+<p><a href="https://mywordle.strivemath.com/?word=ohlgj" target="_blank">How many tries will it take you?</a></p>
+<div style="text-align: center;">
+<p><a href="https://forms.office.com/pages/responsepage.aspx?id=slTDN7CF9UeyIge0jXdO48pr_29hyJFKpCZ7SYYvjeFUNUVPMUk0STlDRlJMNklIWEI3V0NZVTZXVS4u&amp;route=shorturl" class="btn-action-primary btn-action btn btn-success btn-lg">Subscribe to the community</a><a href="https://github.com/nhsengland/datascience-pd-newsletter/issues/new?assignees=&amp;labels=&amp;projects=&amp;template=suggest-some-newsletter-content-.md&amp;title=" class="btn-action-primary btn-action btn btn-info btn-lg" target="_blank">Contribute</a><a href="./newsletter.pdf" class="btn-action-primary btn-action btn btn-info btn-lg" target="_blank">PDF Version</a></p>
+</div>
+
+
+
+ ]]></description>
+  <category>newsletter</category>
+  <guid>https://nhsengland.github.io/datascience-pd-newsletter/posts/2026_06/newsletter.html</guid>
+  <pubDate>Tue, 30 Jun 2026 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Data Science Community for Health and Care Newsletter May 2026</title>
   <dc:creator>Elizabeth Kelly, Simon Wellesley-Miller</dc:creator>
@@ -2364,117 +2443,6 @@ Basically, combine structured learning with practical application, and don’t b
   <category>data science discussion</category>
   <guid>https://nhsengland.github.io/datascience-pd-newsletter/posts/2024_11/newsletter.html</guid>
   <pubDate>Fri, 29 Nov 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Data Science Community for Health and Care Newsletter October 2024</title>
-  <dc:creator>Jennifer Struthers</dc:creator>
-  <link>https://nhsengland.github.io/datascience-pd-newsletter/posts/2024_10/newsletter.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><img src="https://nhsengland.github.io/datascience-pd-newsletter/images/banner_oct.png" class="img-fluid"></p>
-<p>Welcome to the latest newsletter from the Data Science Community for Health and Care, brought to you by the NHS England Data Science Professional Development Functional Team.</p>
-<p>The newsletter team are always happy to receive constructive feedback, and we invite you to send us any contributions you may have.</p>
-<p>If you cannot access something of interest to you, please <a href="https://github.com/nhsengland/datascience-pd-newsletter/issues/new" target="_blank">reach out</a>.</p>
-<p>Thanks for reading! – newsletter team</p>
-<section id="check-out-our-website" class="level1 section-heading">
-<h1>Check out our website!</h1>
-</section>
-<p><img src="https://nhsengland.github.io/datascience-pd-newsletter/posts/2024_10/ds_community_header.jpg" class="img-fluid"></p>
-<p>Over the past few months the team behind this newsletter have been busy redesigning and revamping <a href="https://future.nhs.uk/connect.ti/DataAnalytics/view?objectId=54053296" target="_blank">our site</a> on the FutureNHS platform, and it’s finally ready to share!</p>
-<p>This is where you can find any and all of our resources, past event recordings and calendar of upcoming events! You will need a (free) FutureNHS account in order to access it.</p>
-<p>Don’t have an account? Just follow the link to the site and complete the “create an account” instructions.</p>
-<p>Any requests? Comments are enabled on the site, simply scroll to the bottom and let us know what you think!</p>
-<hr>
-<section id="events" class="level1 section-heading">
-<h1>Events</h1>
-</section>
-<p>Lots of exciting things coming up! See the <a href="https://future.nhs.uk/DataAnalytics/view?objectID=861745" target="_blank">full calendar here</a>, and a small selection below.</p>
-<section id="bold-innovation-showcase" class="level3">
-<h3 class="anchored" data-anchor-id="bold-innovation-showcase"><a href="https://www.eventbrite.co.uk/e/bold-innovation-showcase-tickets-983890461857" target="_blank">BOLD Innovation Showcase</a></h3>
-<p><strong>Wednesday 6th November 2024, 9:30-16:30, London</strong></p>
-<p>Welcome to the BOLD Innovation Showcase! Join us at the De Vere Grand Connaught Rooms for a day filled with groundbreaking ideas and cutting-edge technologies. This in-person event is your chance to connect with industry leaders, innovators, and visionaries. Get ready to be inspired, network with like-minded individuals, and discover the future of innovation. Don’t miss out on this exciting opportunity to be a part of something truly special. See you there!</p>
-</section>
-<section id="making-health-data-resources-discoverable-through-the-health-data-research-gateway" class="level3">
-<h3 class="anchored" data-anchor-id="making-health-data-resources-discoverable-through-the-health-data-research-gateway"><a href="https://www.turing.ac.uk/events/making-health-data-resources-discoverable-through-health-data-research-gateway" target="_blank">Making health data resources discoverable through the Health Data Research Gateway</a></h3>
-<p><strong>Tuesday 12th November, 13:30-14:30, Online</strong></p>
-<p>The Health Data Research Gateway (the Gateway) is a central location to discover health data and other resources vital for research. To date, more than 850 descriptions of datasets (metadata) from 70+ data custodians have been uploaded to the Gateway, along with 2500+ registered users and over 1000 data uses added to the Gateway data use register.</p>
-<p>Throughout the last year, the HDR UK Technology Team has been working on a major new version of the platform. This presentation will outline how the Gateway’s new functionality will help users discover, explore and access health and health-related data, software and research analysis, publications, diseases, phenotypes and other shareable resources.</p>
-</section>
-<section id="nhs-rpysoc-2024-conference" class="level3">
-<h3 class="anchored" data-anchor-id="nhs-rpysoc-2024-conference"><a href="https://nhsrcommunity.com/events.html" target="_blank">NHS RPySOC 2024 Conference</a></h3>
-<p><strong>Thursday 21st-22nd November, 9am-5pm, in-person (Birmingham) / Online</strong></p>
-<p>The <strong>NHS RPySOC 2024 conference</strong> is open for registration now! It will be on <strong>21st &amp; 22nd November in Birmingham</strong>. This is jointly hosted by the NHS R Community and NHS.pycom, and also promotes Open Source.</p>
-<ul>
-<li>Day 1 will be a mixture of presentations, workshops and lightening talks</li>
-<li>Day 2 will be ‘Unconference’ with suggestions for topics being taken on day 1.</li>
-</ul>
-<p>It’s a great chance to show off our work, share our learning with a like minded community and learn a few things yourself, such as the state of the industry and how techniques are being applied elsewhere.</p>
-<p>You can either attend:</p>
-<ul>
-<li>In-Person (The ICC, Hall 11, Birmingham B1 2EA (Sold Out: Waiting List Only)</li>
-<li>Online</li>
-</ul>
-<hr>
-<p>See more future events on the <a href="https://future.nhs.uk/DataAnalytics/view?objectID=861745" target="_blank">calendar</a></p>
-<p>Know of any events we should feature next month? Let us know by clicking the “Contribute” button, or <a href="https://github.com/nhsengland/datascience-pd-newsletter/issues/new?assignees=&amp;labels=&amp;projects=&amp;template=suggest-some-newsletter-content-.md&amp;title=" target="_blank">here</a>.</p>
-</section>
-<section id="data-science-discussion-professional-development-edition" class="level1 section-heading">
-<h1>Data Science Discussion: Professional Development Edition</h1>
-</section>
-<p><img src="https://nhsengland.github.io/datascience-pd-newsletter/posts/2024_10/dsd_header.jpg" class="img-fluid"></p>
-<p>Last month we ran another Data Science Discussion, an event where we have a host prepare a topic for discussion and then we split into breakout rooms to allow more people to have their say. These discussions aren’t recorded, we want to make everyone feel as comfortable as possible to discuss their thoughts and ideas on whatever topic we are talking about.</p>
-<p>Most recently our discussion focussed on professional development in our current roles, and how we can support others to take advantage of the opportunities they have.</p>
-<p>One discussion point that came up in a few groups was the difference between purposeful development time versus just doing the job and where the line is drawn between them. It was felt that a lot of the work we do involves researching and learning about different techniques and methods, and that this could really also be considered professional development.</p>
-<p>A theme that also came up across groups was the lack of time available for dedicated professional development for topics and areas that are separate from the day to day work. A lot of people felt like they had limited time for self-directed study, and that getting the job done took priority which led to professional development taking a back seat. In order to mitigate this, people suggested blocking out calendar time in advance in order to pre-book learning time, although sticking to this can be hard if you’re busy.</p>
-<p>We had members from various NHS teams present at this discussion and there was also a definite split, with some teams feeling like they were allowed a lot more time and were encouraged to take development opportunities more than others. This highlighted a bit of a difference in team culture, and there was discussion about how those who are allotted more time could support those without.</p>
-<p>The most engaging discussion point? Whether a hot dog is a sandwich. We’re still split on it.</p>
-<hr>
-<p>Want to get the calendar invite for the next one? <a href="https://forms.office.com/pages/responsepage.aspx?id=slTDN7CF9UeyIge0jXdO48pr_29hyJFKpCZ7SYYvjeFUNUVPMUk0STlDRlJMNklIWEI3V0NZVTZXVS4u&amp;route=shorturl" target="_blank">Sign up to our mailing list</a>.</p>
-<p>Want to host a Discussion? <a href="mailto:datascience@nhs.net">Contact us</a> and let us know!</p>
-<hr>
-<section id="competitions-and-challenges" class="level1 section-heading">
-<h1>Competitions and Challenges</h1>
-</section>
-<section id="british-heart-foundation-kaggle-competition" class="level2">
-<h2 class="anchored" data-anchor-id="british-heart-foundation-kaggle-competition">British Heart Foundation Kaggle Competition</h2>
-<p>Got a competitive edge but a heart of gold?</p>
-<p>The British Heart Foundation Data Science Centre have set up a Kaggle competition, in collaboration with researchers from the ition on Kaggle The University of Edinburgh. The challenge aims to assess whether artificial intelligence/machine learning can be used to identify and classify disorders of heart rhythm from synthetic ECG images which have been created to incorporate common artefacts.</p>
-<p>The top scoring teams will be invited to participate in a British Heart Foundation Data Science Centre webinar about the challenge and the best performing will be invited to present their results at the British Cardiovascular Society (BCS) meeting in June 2025. Participation in these activities will require code sharing.</p>
-<p>Find out more information and how to enter <a href="https://www.kaggle.com/c/bhf-data-science-centre-ecg-challenge">here</a>. This competition is currently open and runs until Monday 16th of December 2024.</p>
-</section>
-<section id="gandalf-game" class="level2">
-<h2 class="anchored" data-anchor-id="gandalf-game">Gandalf Game</h2>
-<p>Test your LLM prompt skills by tricking Gandalf into revealing the secret password for each level. Each level gets progressively harder, with Gandalf first just giving the password to anyone that asks and later more creative approaches are needed.</p>
-<p>Played before? There’s new adventures! Try Reverse Gandalf, where you tell Gandalf how to defend against password seeking users.</p>
-<p>You can check it out here: <a href="https://gandalf.lakera.ai/intro" target="_blank">Gandalf Wizard AI</a></p>
-</section>
-<section id="ai-vs-human-who-wrote-it-best" class="level2">
-<h2 class="anchored" data-anchor-id="ai-vs-human-who-wrote-it-best">AI vs Human: Who wrote it best?</h2>
-<p>Can you tell when something has been written by a machine? Can you write like a machine?</p>
-<p>Check out <a href="https://gptzero.me/" target="_blank">GPTZero</a>, a free online AI checker which estimates its confidence that the text you input is or isn’t AI generated. Think you can fool it? Try writing a short paragraph in the style of ChatGPT, and see if you can get it to think what you’ve written was really written by an LLM. Or flip the script: give your favourite LLM prompts to see if it can produce text that passes as human.</p>
-<p>Was this text written by AI? Test it out!</p>
-<hr>
-<p>Check out our collection of training resources in the <a href="https://future.nhs.uk/DataAnalytics/view?objectID=861745" target="_blank">Resources Section</a>! Can you spot something missing? <a href="mailto:datascience@nhs.net">Contact us</a>!</p>
-</section>
-<section id="need-a-quick-break" class="level1 section-heading">
-<h1>Need a Quick Break?</h1>
-</section>
-<p><a href="https://mywordle.strivemath.com/?word=hwdle" target="_blank">How many tries will it take you?</a></p>
-<div style="text-align: center;">
-<p><a href="https://forms.office.com/pages/responsepage.aspx?id=slTDN7CF9UeyIge0jXdO48pr_29hyJFKpCZ7SYYvjeFUNUVPMUk0STlDRlJMNklIWEI3V0NZVTZXVS4u&amp;route=shorturl" class="btn-action-primary btn-action btn btn-success btn-lg">Subscribe to the community</a><a href="https://github.com/nhsengland/datascience-pd-newsletter/issues/new?assignees=&amp;labels=&amp;projects=&amp;template=suggest-some-newsletter-content-.md&amp;title=" class="btn-action-primary btn-action btn btn-info btn-lg" target="_blank">Contribute</a><a href="./newsletter.pdf" class="btn-action-primary btn-action btn btn-info btn-lg" target="_blank">PDF Version</a></p>
-</div>
-
-
-
- ]]></description>
-  <category>newsletter</category>
-  <category>professional development</category>
-  <category>data science discussion</category>
-  <guid>https://nhsengland.github.io/datascience-pd-newsletter/posts/2024_10/newsletter.html</guid>
-  <pubDate>Wed, 30 Oct 2024 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
